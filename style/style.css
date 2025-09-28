@@ -437,7 +437,7 @@ footer {
     height: 6px;
     background-color: #9b59b6; 
     border-radius: 3px;
-    animation: load 2s forwards;
+    animation: load 3s linear infinite;
 }
 
 @keyframes load {
