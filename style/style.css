@@ -21,11 +21,9 @@ i.fas.fa-envelope {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-}
-
-.contact-info p{
-    font-size: 1.4rem;
+    gap: 20px;
+    text-decoration: none; 
+    color: inherit;
 }
 
 header {
@@ -67,8 +65,8 @@ footer {
 .about-container {
     display: flex;
     align-items: center;
-    gap: 2rem; /* espace entre photo et texte */
-    flex-wrap: wrap; /* pour que ça s’adapte sur mobile */
+    gap: 2rem; 
+    flex-wrap: wrap; 
 }
 
 .profile-photo {
