@@ -5,6 +5,17 @@ body {
     line-height: 1.6;
 }
 
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #f7f7f7;
+}
+
+
 /* Navbar CSS */
 
 header {
