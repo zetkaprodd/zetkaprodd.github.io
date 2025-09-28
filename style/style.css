@@ -417,3 +417,30 @@ footer {
     border-radius: 50%; /* rend la photo ronde */
     border: 2px solid #333; /* contour facultatif */
 }
+
+/* Loader CSS */
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader-bar {
+    width: 0;
+    height: 6px;
+    background-color: #9b59b6; 
+    border-radius: 3px;
+    animation: load 2s forwards;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 300px; } 
+}

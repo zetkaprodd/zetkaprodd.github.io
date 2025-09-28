@@ -10,6 +10,9 @@
 
 </head>
 <body>
+    <div id="loader">
+        <div class="loader-bar"></div>
+    </div>
     <header>
         <h1>Eliott Bayart</h1>
         <nav class="navbar">
@@ -112,5 +115,13 @@
     <footer>
         <p>© 2025 Portfolio Eliott Bayart</p>
     </footer>
+    <script>
+    window.addEventListener("load", () => {
+        const loader = document.getElementById("loader");
+        loader.style.transition = "opacity 0.5s ease";
+        loader.style.opacity = 0;
+        setTimeout(() => loader.style.display = "none", 500);
+    });
+    </script>
 </body>
 </html>
