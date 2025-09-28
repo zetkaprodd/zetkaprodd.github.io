@@ -63,3 +63,18 @@ footer {
     padding: 1rem;
     background: #f4f4f4;
 }
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* espace entre photo et texte */
+    flex-wrap: wrap; /* pour que ça s’adapte sur mobile */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* remplit le cadre en gardant les proportions */
+    border-radius: 50%; /* rend la photo ronde */
+    border: 2px solid #333; /* contour facultatif */
+}
