@@ -5,6 +5,29 @@ body {
     line-height: 1.6;
 }
 
+i.fab.fa-github {
+    color: black;
+}
+
+i.fab.fa-linkedin {
+    color: #0077b5;
+}
+
+i.fas.fa-envelope {
+    color: #D44638;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact-info p{
+    font-size: 1.4rem;
+}
+
 header {
     background: #333;
     color: #fff;
@@ -29,6 +52,10 @@ section {
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 8px;
+}
+
+i {
+    margin-right: 8px;
 }
 
 footer {
